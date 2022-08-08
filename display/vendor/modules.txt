@@ -1,0 +1,3 @@
+# github.com/adarwawan/multi-module-go-testing v1.1.0
+## explicit
+github.com/adarwawan/multi-module-go-testing/math

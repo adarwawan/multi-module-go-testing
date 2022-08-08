@@ -1,4 +1,4 @@
-package display
+package main
 
 import (
 	"fmt"
@@ -6,7 +6,9 @@ import (
 	"github.com/adarwawan/multi-module-go-testing/math"
 )
 
-func PrintSum(a int, b int) {
+func main() {
+	a := 1
+	b := 2
 	sum := math.Add(a, b)
-	fmt.Println("Sum of %d and %d is %d", a, b, sum)
+	fmt.Printf("Sum of %d and %d is %d", a, b, sum)
 }
